@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/Sahil.css">
+    <title>sahil</title>
+    
+</head>
+<body>
+  
+    <!-- -------------------------------------nav bar------------------------ -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+        <div class="container-fluid" >
+          <a class="navbar-brand h1 text-primary" href="#"><img src="image/home-logo.jpeg" alt="...." width="70px" height="70px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success mx-3" type="submit">Search</button>
+              <button class="btn btn-outline-success" type="submit">LogIn</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+ <!--------------------------------------------------aside bar--------------------------> 
+ <aside>
+  <div class="container-fluid p-0" style="position: relative;">
+    <div class="d-flex flex-column justify-content-between ms-auto" style="position: fixed;z-index: 10;top: 200px;right:20px ;">
+      <div class="aside-icon h1"><a href="#"><i class="fab fa-facebook-square"></i></a></div>
+      <div class="aside-icon h1"><a href="#"><i class="fab fa-whatsapp-square"></i></a></div>
+      <div class="aside-icon h1 "><a href="#"><i class="fab fa-twitter-square"></i></a></div>
+      <div class="aside-icon h1"><a href="#"><i class="fab fa-linkedin"></i></a></div>
+      <div class="aside-icon h1 "><a href="#"><i class="fab fa-instagram-square"></i></a></div>
+    </div>
+</div>
+ </aside>
+  
+<!-- --------------------------------Home--------------------------------------------------- -->
+
+<nav>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image/slide2.jpg" class="d-block w-100 " alt="..." height="650px">
+        <div class="carousel-caption d-none d-md-block " style="background-color: rgba(135, 207, 235, 0.549);">
+          <h5>Welcome to Sahl website</h5>
+          <p>Sahl website is the first website in providing various easy-to-use services.</p>
+          <button type="button"class="btn btn-info">Visit US</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="image/slide1.jpg" class="d-block w-100" alt="..." height="650px">
+        <div class="carousel-caption d-none d-md-block "  style="background-color: rgba(135, 207, 235, 0.549);">
+          <h5>Discover our services</h5>
+          <p>We provide you with a variety of services that meet your needs with ease.</p>
+          <button type="button"class="btn btn-info">Visit US</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="image/slide3.jpg" class="d-block w-100" alt="..." height="650px">
+        <div class="carousel-caption d-none d-md-block"  style="background-color: rgba(135, 207, 235, 0.549);">
+          <h5>Join Sahl community</h5>
+          <p>Be part of an active community that brings users together on an easy and simple platform.</p>
+          <button type="button"class="btn btn-info">Visit US</button>
+        </div>
+      </div>
+
+    </div>
+    <div class="carousel-item">
+      <img src="image/slide3.jpg" class="d-block w-100" alt="..." height="650px">
+      <div class="carousel-caption d-none d-md-block"  style="background-color: rgba(135, 207, 235, 0.549);">
+        <h5>Start now with the first step</h5>
+        <p>Do not hesitate to start using Sahl website, as we are here to serve you.</p>
+        <button type="button"class="btn btn-info">Visit US</button>
+      </div>
+    </div> 
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+  </div>
+
+  <div class="container-fluid p-3 text-white "  style="background-color: rgba(135, 207, 235, 0.929);">
+    <h1 class="h1 fw-bold text-capitalize ">Welcome</h1>
+    <p>
+      Enjoy a smooth and fun shopping and browsing experience with us. <br>
+      Thank you for choosing Sahl website where we always strive to provide the easiest solutions for your day.
+    </p>
+    <button class="btn btn-lg btn-outline-success ">see more</button>
+  </div>
+  
+    <hr>
+</nav>
+ 
+  <!-- --------------------------------------------MAIN------------------------------------- -->
+  <main>
+    <div class="container-fluid p-5 text-white text-center text-capitalize mb-2 rounded" style="background-color: rgb(84, 172, 207);">
+      <h1 class="fw-bold">the best destinations for you</h1>
+    </div>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item  ">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed text-info" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Paris, France
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body text-secondary ">Paris is a great tourist destination known for its important landmarks like the Eiffel Tower, the Louvre, the Palace of Versailles,
+             the Champs-Elysées, and more. It is also famous for its luxurious restaurants and elegant cafes.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed text-info" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Rome, Italy
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body text-secondary">A city rich in history and civilization, home to many magnificent ancient sites like the Colosseum, the Opera House, 
+            and art museums. Rome is also renowned for its Italian cuisine and charming atmosphere.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed text-info" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Santorini, Greece
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body text-secondary">A magical island with breathtaking beaches and whitewashed houses overlooking the azure sea. Major highlights include the volcanic calderas, 
+            Oia village, and the historical town of Fira. An ideal destination for relaxation and tranquility.</div>
+        </div>
+      </div>
+    </div> <hr>
+  
+  </main>
+
+
+  <!-- -------------------------------------------------translate section------------------------------------------------------------------- -->
+  
+  <section>
+    <div class="container-fluid p-3 mt-3 text-white text-center rounded-1" style="background-color: rgb(84, 172, 207);">
+      <h1>Translate From Arabic To English</h1>
+    </div>
+    <div class="container-fluid p-5 text-white" style="background-color: rgba(84, 172, 207, 0.551);">
+      <p class="h4">Write and Translate <a href="#">press</a></p>
+      <button class="btn btn-outline-success mb-3">copy</button>
+      <div class="input-group ">
+        <textarea class="form-control" rows="5" aria-label="With textarea"></textarea>
+      </div>
+      
+    </div><hr>
+  
+    <div class="container-fluid p-3 mt-3 text-white text-center rounded-1" style="background-color: rgb(84, 172, 207);">
+      <h1>Translate From Arabic To Frensh</h1>
+    </div>
+    <div class="container-fluid p-5 text-white" style="background-color: rgba(84, 172, 207, 0.551);">
+      <p class="h4">Write and Translate <a href="#">press</a></p>
+      <button class="btn btn-outline-success mb-3">copy</button>
+      <div class="input-group ">
+        <textarea class="form-control" rows="5" aria-label="With textarea"></textarea>
+      </div>
+      
+    </div><hr>
+  
+  
+    <div class="container-fluid p-3 mt-3 text-white text-center rounded-1" style="background-color: rgb(84, 172, 207);">
+      <h1>Translate From Arabic To German</h1>
+    </div>
+    <div class="container-fluid p-5 text-white" style="background-color: rgba(84, 172, 207, 0.551);">
+      <p class="h4">Write and Translate <a href="#">press</a></p>
+      <button class="btn btn-outline-success mb-3">copy</button>
+      <div class="input-group ">
+        <textarea class="form-control" rows="5" aria-label="With textarea"></textarea>
+      </div>
+      
+    </div><hr>
+  </section>
+
+<!-- -----------------------------------------back 1--------------------------------------------------- -->
+<div class="container-fluid" 
+style="height:400px; position: absolute;z-index: -1; background:gray url(image/back1.jpg) no-repeat fixed ; background-size: cover;"></div>
+  <!-- ---------------------------------------Popular--------------------------------------- -->
+  <section>
+
+    
+  <div class="container-fluid p-3 text-white text-center" style="margin-top: 400px;background-color: rgb(84, 172, 207);">
+    <h1>Popular destinations</h1>
+ </div>
+
+  <div class="container mt-5 mb-5">
+   <div class="row row-cols-1 row-cols-md-3 g-5 justify-content-around ">
+    <div class="col">
+      <div class="card h-100 p-2 site">
+        <img src="image/site1.jpg" class="card-img-top h-100" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Tower of Pisa<button class="btn btn-outline-info" style="position: absolute;z-index: 5;right:15px ;">see more</button></h5>
+          <p class="card-text">city of Pisa, Italy.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col ">
+      <div class="card h-100 p-2 site">
+        <img src="image/site2.jpg" class="card-img-top h-100" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">St. Peter's Basilica<button class="btn btn-outline-info" style="position: absolute;z-index: 5;right:15px ;">see more</button></h5>
+          <p class="card-text">Vatican City</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col ">
+      <div class="card h-100 p-2 site">
+        <img src="image/site3.jpg" class="card-img-top h-100" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Hagia Sophia Mosque <button class="btn btn-outline-info" style="position: absolute;z-index: 5;right:15px ;">see more</button></h5>
+          <p class="card-text">Istanbul, Turkey</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 p-2 site">
+        <img src="image/site4.jpg" class="card-img-top h-100" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pyramids<button class="btn btn-outline-info" style="position: absolute;z-index: 5;right:15px ;">see more</button></h5>
+          <p class="card-text">Giza,Egypt</p>
+        </div>
+      </div>
+    </div>
+    <div class="col ">
+      <div class="card h-100 p-2 site">
+        <img src="image/site5.jpg" class="card-img-top h-100" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sea Church<button class="btn btn-outline-info" style="position: absolute;z-index: 5;right:15px ;">see more</button></h5>
+          <p class="card-text">Jerusalem, Palestine.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col ">
+      <div class="card h-100 p-2 site">
+        <img src="image/site6.jpg" class="card-img-top h-100" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Big Ben<button class="btn btn-outline-info" style="position: absolute;z-index: 5;right:15px ;">see more</button></h5>
+          <p class="card-text">Westminster, London.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 p-2 site">
+        <img src="image/site7.jpg" class="card-img-top h-100" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Heaven in Beijing<button class="btn btn-outline-info" style="position: absolute;z-index: 5;right:15px ;">see more</button></h5>
+          <p class="card-text">Shanghai,china</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col">
+      <div class="card h-100 p-2 site">
+        <img src="image/site8.jpg" class="card-img-top h-100" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Taj Mahal<button class="btn btn-outline-info" style="position: absolute;z-index: 5;right:15px ;">see more</button></h5>
+          <p class="card-text"> Agra, India.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  </section>
+
+  <!-- -----------------------------------------------back2------------------------------------------ -->
+  <div class="container-fluid" 
+style="height:400px; position: absolute;z-index: -1; background:gray url(image/back3.jpg) no-repeat fixed ; background-size: cover;"></div>
+  <!-- ---------------------------------------------------thank for------------------------------------- -->
+
+ <section>
+
+  <hr><div class="container-fluid p-5 text-white text-center " style="margin-top: 400px;background-color: rgb(84, 172, 207);" >
+    <h1>Thanks For</h1>
+ </div>
+ 
+<div class="container mt-5 ">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col rounded" id="thanks">
+      <div class="card" style="background: gray url(image/islam.jpg) no-repeat; background-size: cover;">
+        <div class="overlay" style="background-color:rgba(0, 0, 0, 0.611);">
+          <div class="card-body" >
+            <h5 class="card-title text-light">All thanks and appreciation</h5>
+            <p class="card-text mb-0 text-light"><i class="fa-regular fa-clock"></i> november 11 , 2023</p>
+          </div>
+         <div class="container" style="width: 160px; height: 200px;border-radius: 50%;position: relative;margin-top:150px;margin-left: 5px;">
+          <img src="image/islam.jpg" class="" alt="..." style="position: absolute;width: 160px; height: 200px;border-radius: 50%;">
+        </div>
+          <div class="card-body">
+            <p class="card-text mb-0 text-light">
+              Eng. Islam Mohammed<br>
+              Director of UI/UX
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col rounded" id="thanks">
+      <div class="card" style="background: gray url(image/Mohamed.jpeg) no-repeat; background-size: cover;">
+        <div class="overlay" style="background-color:rgba(0, 0, 0, 0.611);">
+          <div class="card-body" >
+            <h5 class="card-title text-light">All thanks and appreciation</h5>
+            <p class="card-text mb-0 text-light"><i class="fa-regular fa-clock"></i> november 11 , 2023</p>
+          </div>
+         <div class="container" style="width: 160px; height: 200px;border-radius: 50%;position: relative;margin-top:150px;margin-left: 5px;">
+          <img src="image/Mohamed.jpeg" class="" alt="..." style="position: absolute;width: 160px; height: 200px;border-radius: 50%;">
+        </div>
+          <div class="card-body">
+            <p class="card-text mb-0 text-light">
+              Eng. Mohammed Ismail "som3a<br>
+              Director of UI/UX
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col rounded" id="thanks">
+      <div class="card" style="background: gray url(image/saly.jpeg) no-repeat; background-size: cover;">
+        <div class="overlay" style="background-color:rgba(0, 0, 0, 0.611);">
+          <div class="card-body" >
+            <h5 class="card-title text-light">All thanks and appreciation</h5>
+            <p class="card-text mb-0 text-light"><i class="fa-regular fa-clock"></i> november 11 , 2023</p>
+          </div>
+         <div class="container" style="width: 160px; height: 200px;border-radius: 50%;position: relative;margin-top:150px;margin-left: 5px;">
+          <img src="image/saly.jpeg" class="" alt="..." style="position: absolute;width: 160px; height: 200px;border-radius: 50%;">
+        </div>
+          <div class="card-body">
+            <p class="card-text mb-0 text-light">
+              Eng.Sally Maraush<br>
+              Director of UI/UX
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<hr>
+
+ </section>
+<!-- -----------------------------------------------------news--------------------------------------------- -->
+
+<section>
+
+  <div class="container-fluid p-5 text-white text-center" style="background-color: rgb(84, 172, 207);">
+    <h1>Tourism News</h1>
+  </div>
+  
+  
+  <article class="left-image">
+    <div class="postcard mb-3  d-flex  container-md container-fluid  " >
+      <div class="row g-0 left mt-5 " style="border-radius: 20px; background:-webkit-linear-gradient(top,rgba(135, 207, 235, 0.047),rgba(135, 207, 235, 0.205),rgba(135, 207, 235, 0.26));">
+        <div class="col-md-4 img postcard__img_link rounded-5 " style="width: 30% !important;">
+          <img src="image/news1.jpg" class="imge  postcard__img rounded-5" alt="... ">
+        </div>
+        <div class="col-md-8" >
+          <div class="card-body" >
+            <h1 class="card-title"><a class="text-info" href="#" style="color: rgb(108, 105, 105);">Sharm El-Sheikh</a></h1>
+              <div class="postcard-bar"></div>
+            <div class="date-time" style="font-size: 15px;">
+              <i class="far fa-calendar-alt"></i>
+              
+            </div>
+    
+           
+            <p class="card-text text-dark" style="color: rgb(125, 120, 120);">Sharm El-Sheikh is characterized by the presence of many beautiful
+               coral reefs that attract divers and water sports enthusiasts.
+               The city also contains luxurious resorts and international hotels in addition to lovely restaurants and cafes.</p>
+            <p style="font-weight: bold;" class="card-text"><small class="text-body-secondary text-secondary">by Leland H. Hartwell (Author), Michael L. Goldberg (Author), Janice A. Fischer (Author), Leroy Hood (Author) </small></p>
+              
+    
+          </div>
+           
+          <div class="postcard-tagbox">
+            <button class="btn btn-outline-dark m-2"><i class="fas fa-tag mr-2"></i>Podcast</button>
+            <button class="btn btn-outline-dark m-2"><i class="fas fa-clock mr-2"></i>55 mins.</button>
+            <button class="btn btn-outline-dark m-2"><i class="fas fa-play mr-2"></i>Play Episode</button>
+              
+           </div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+
+  <article class="right-image">
+    <div class="postcard mb-3 d-flex  container-md container-fluid " >
+      <div class="row g-0 right mt-5 " style="border-radius: 20px; background:-webkit-linear-gradient(top,rgba(135, 207, 235, 0.047),rgba(135, 207, 235, 0.205),rgba(135, 207, 235, 0.26));">
+        <div class="col-md-4 col-sm-12 img postcard__img_link right-img order-md-3 order-sm-0 rounded " style="width: 30% !important;">
+          <img src="image/news2.jpg" class="imge  postcard__img " alt="... " >
+        </div>
+        <div class="col-md-8">
+          <div class="card-body" >
+            <h1 class="card-title"><a class="text-info" href="#" style="color: rgb(108, 105, 105);">New York City</a></h1>
+              <div class="postcard-bar"></div>
+            <div class="date-time" style="font-size: 15px;">
+              <i class="far fa-calendar-alt"></i>
+              
+            </div>
+    
+           
+            <p class="card-text text-dark" style="color: rgb(125, 120, 120);">Radio City is a famous entertainment complex and landmark in Midtown Manhattan, New York City. 
+              It originally opened in 1932 and contains several venues and studios. The centerpiece and most well-known venue is Radio City Music Hall.
+               With its Art Deco style interior decor featuring a large proscenium arch stage and red velour seats, the Music Hall hosts concerts,
+                stage shows, awards shows, and more.</p>
+            <p style="font-weight: bold;" class="card-text"><small class="text-body-secondary text-secondary">by Leland H. Hartwell (Author), Michael L. Goldberg (Author), Janice A. Fischer (Author), Leroy Hood (Author) </small></p>
+               
+            <div class="postcard-tagbox">
+              <button class="btn btn-outline-dark m-2"><i class="fas fa-tag mr-2"></i>Podcast</button>
+              <button class="btn btn-outline-dark m-2"><i class="fas fa-clock mr-2"></i>55 mins.</button>
+              <button class="btn btn-outline-dark m-2"><i class="fas fa-play mr-2"></i>Play Episode</button>
+                
+             </div>
+    
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="left-image">
+    <div class="postcard mb-3  d-flex  container-md container-fluid  " >
+      <div class="row g-0 left mt-5 " style="border-radius: 20px; background:-webkit-linear-gradient(top,rgba(135, 207, 235, 0.047),rgba(135, 207, 235, 0.205),rgba(135, 207, 235, 0.26));">
+        <div class="col-md-4 img postcard__img_link rounded-5 " style="width: 30% !important;">
+          <img src="image/news3.jpg" class="imge  postcard__img rounded-5" alt="... ">
+        </div>
+        <div class="col-md-8" >
+          <div class="card-body" >
+            <h1 class="card-title"><a class="text-info" href="#" style="color: rgb(108, 105, 105);">London,England</a></h1>
+              <div class="postcard-bar"></div>
+            <div class="date-time" style="font-size: 15px;">
+              <i class="far fa-calendar-alt"></i>
+              
+            </div>
+    
+           
+            <p class="card-text text-dark" style="color: rgb(125, 120, 120);">Packed with over 300 shops, Oxford Street is Europe's busiest shopping
+               street. It features numerous luxury department stores, flagship retail stores, high-end boutiques, restaurants, cafes and movie theaters.
+              Historic landmarks located on Oxford Street include the world-famous Selfridges department store, the equally iconic Marble Arch monument
+               and the stunning St. Mary's Church.</p>
+            <p style="font-weight: bold;" class="card-text"><small class="text-body-secondary text-secondary">by Leland H. Hartwell (Author), Michael L. Goldberg (Author), Janice A. Fischer (Author), Leroy Hood (Author) </small></p>
+              
+    
+          </div>
+           
+          <div class="postcard-tagbox">
+            <button class="btn btn-outline-dark m-2"><i class="fas fa-tag mr-2"></i>Podcast</button>
+            <button class="btn btn-outline-dark m-2"><i class="fas fa-clock mr-2"></i>55 mins.</button>
+            <button class="btn btn-outline-dark m-2"><i class="fas fa-play mr-2"></i>Play Episode</button>
+              
+           </div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+
+  <article class="right-image">
+    <div class="postcard mb-3 d-flex  container-md container-fluid " >
+      <div class="row g-0 right mt-5 " style="border-radius: 20px; background:-webkit-linear-gradient(top,rgba(135, 207, 235, 0.047),rgba(135, 207, 235, 0.205),rgba(135, 207, 235, 0.26));">
+        <div class="col-md-4 col-sm-12 img postcard__img_link right-img order-md-3 order-sm-0 rounded " style="width: 30% !important;">
+          <img src="image/news4.jpg" class="imge  postcard__img " alt="... " >
+        </div>
+        <div class="col-md-8">
+          <div class="card-body" >
+            <h1 class="card-title"><a class="text-info" href="#" style="color: rgb(108, 105, 105);">Bidoup Nui Ba National Park,Vietnam</a></h1>
+              <div class="postcard-bar"></div>
+            <div class="date-time" style="font-size: 15px;">
+              <i class="far fa-calendar-alt"></i>
+              
+            </div>
+    
+           
+            <p class="card-text text-dark" style="color: rgb(125, 120, 120);">Bidoup Nui Ba National Park is located in the south-central highlands of Vietnam.
+              It is characterized by its beautiful mountainous terrain and dense vegetation cover. The park encompasses a huge area of over 200,000 hectares.
+              Bidoup Nui Ba has a diverse ecosystem with both evergreen and coniferous forests. Some of the trees found here include pine, bamboo, 
+              rattan palm, and rosewood. The fauna is also varied, with Asian black bears, sun bears, muntjac deer,
+               and even rare primates like the red-shanked douc and black-shanked douc.</p>
+            <p style="font-weight: bold;" class="card-text"><small class="text-body-secondary text-secondary">by Leland H. Hartwell (Author), Michael L. Goldberg (Author), Janice A. Fischer (Author), Leroy Hood (Author) </small></p>
+               
+            <div class="postcard-tagbox">
+              <button class="btn btn-outline-dark m-2"><i class="fas fa-tag mr-2"></i>Podcast</button>
+              <button class="btn btn-outline-dark m-2"><i class="fas fa-clock mr-2"></i>55 mins.</button>
+              <button class="btn btn-outline-dark m-2"><i class="fas fa-play mr-2"></i>Play Episode</button>
+                
+             </div>
+    
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="left-image">
+    <div class="postcard mb-3  d-flex  container-md container-fluid  " >
+      <div class="row g-0 left mt-5 " style="border-radius: 20px; background:-webkit-linear-gradient(top,rgba(135, 207, 235, 0.047),rgba(135, 207, 235, 0.205),rgba(135, 207, 235, 0.26));">
+        <div class="col-md-4 img postcard__img_link rounded-5 " style="width: 30% !important;">
+          <img src="image/news5.jpg" class="imge  postcard__img rounded-5" alt="... ">
+        </div>
+        <div class="col-md-8" >
+          <div class="card-body" >
+            <h1 class="card-title"><a class="text-info" href="#" style="color: rgb(108, 105, 105);"> Venice, Italy</a></h1>
+              <div class="postcard-bar"></div>
+            <div class="date-time" style="font-size: 15px;">
+              <i class="far fa-calendar-alt"></i>
+              
+            </div>
+    
+           
+            <p class="card-text text-dark" style="color: rgb(125, 120, 120);">Venice is an archipelago of 118 islands in a lagoon off the coast of northeast Italy.
+               Often called “The Floating City,” Venice sits atop a maze of canals and waterways instead of roads,
+                making it entirely navigable via boat and footbridges.Venice’s islands are connected by over 400 bridges spanning its winding canals.
+                The Grand Canal functions as the main waterway and thoroughfare containing some of the city’s most famous sites.
+                 Italian Gothic and Byzantine architecture abound, exemplified by landmarks like the Doge’s Palace and St. Mark’s Basilica.</p>
+            <p style="font-weight: bold;" class="card-text"><small class="text-body-secondary text-secondary">by Leland H. Hartwell (Author), Michael L. Goldberg (Author), Janice A. Fischer (Author), Leroy Hood (Author) </small></p>
+              
+    
+          </div>
+           
+          <div class="postcard-tagbox">
+            <button class="btn btn-outline-dark m-2"><i class="fas fa-tag mr-2"></i>Podcast</button>
+            <button class="btn btn-outline-dark m-2"><i class="fas fa-clock mr-2"></i>55 mins.</button>
+            <button class="btn btn-outline-dark m-2"><i class="fas fa-play mr-2"></i>Play Episode</button>
+              
+           </div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+
+  <article class="right-image">
+    <div class="postcard mb-3 d-flex  container-md container-fluid " >
+      <div class="row g-0 right mt-5 " style="border-radius: 20px; background:-webkit-linear-gradient(top,rgba(135, 207, 235, 0.047),rgba(135, 207, 235, 0.205),rgba(135, 207, 235, 0.26));">
+        <div class="col-md-4 col-sm-12 img postcard__img_link right-img order-md-3 order-sm-0 rounded " style="width: 30% !important;">
+          <img src="image/news6.jpg" class="imge  postcard__img " alt="... " >
+        </div>
+        <div class="col-md-8">
+          <div class="card-body" >
+            <h1 class="card-title"><a class="text-info" href="#" style="color: rgb(108, 105, 105);"> Paris, France</a></h1>
+              <div class="postcard-bar"></div>
+            <div class="date-time" style="font-size: 15px;">
+              <i class="far fa-calendar-alt"></i>
+              
+            </div>
+    
+           
+            <p class="card-text text-dark" style="color: rgb(125, 120, 120);">The Eiffel Tower (Burj Eiffel) is a wrought iron lattice tower
+               located on the Champ de Mars in Paris, France.It was constructed in 1889 as the entrance arch to the 1889 World's Fair.
+                It was initially criticized by some of France's leading artists and intellectuals for its design, 
+                but has become a global cultural icon of France and one of the most recognizable structures in the world.</p>
+            <p style="font-weight: bold;" class="card-text"><small class="text-body-secondary text-secondary">by Leland H. Hartwell (Author), Michael L. Goldberg (Author), Janice A. Fischer (Author), Leroy Hood (Author) </small></p>
+               
+            <div class="postcard-tagbox">
+              <button class="btn btn-outline-dark m-2"><i class="fas fa-tag mr-2"></i>Podcast</button>
+              <button class="btn btn-outline-dark m-2"><i class="fas fa-clock mr-2"></i>55 mins.</button>
+              <button class="btn btn-outline-dark m-2"><i class="fas fa-play mr-2"></i>Play Episode</button>
+                
+             </div>
+    
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+
+ 
+
+
+ 
+
+
+</section>
+
+    
+
+
+<!-- --------------------------------------------------join us-------------------------------------------------------- -->
+
+<section>
+
+  <div class="container p-5  text-center ">
+    <h1 class="text-info h1">Join Us</h1>
+  </div>
+  
+  
+  <div class="row justify-content-center ">
+    <div class="card m-3 bg-light" style="width: 250px; box-shadow: -5px -5px 20px 10px rgb(201, 198, 241);">
+      <div class="card-body text-info d-flex flex-column text-center">
+        <h3 class="card-title mb-2">Subscribe Now</h3>
+        <input class="logoicon mb-2 rounded-4" style="align-self: center;" src="image/twetter.jpg" type="image" alt="icon">
+        <a href="#" class="card-link h4 text-info " style="text-decoration: none;">Go to link</a>
+      </div>
+    </div>
+    <div class="card m-3 bg-light " style="width: 250px; box-shadow: -5px -5px 20px 10px rgb(201, 198, 241);">
+      <div class="card-body text-info d-flex flex-column text-center">
+        <h3 class="card-title mb-4">Follow</h3>
+        <input class="logoicon mb-2 rounded-4" style="align-self: center;" src="image/whats.jpg" type="image" alt="icon">
+        <a href="" target="_blank" class="card-link h4 text-info " style="text-decoration: none;">Go to link</a>
+      </div>
+    </div>
+    <div class="card m-3 bg-light " style="width: 250px;  box-shadow: -5px -5px 20px 10px rgb(201, 198, 241)">
+      <div class="card-body text-info d-flex flex-column text-center">
+        <h3 class="card-title mb-4">Like the page
+        </h3>
+        <input class="logoicon mb-2 rounded-4" style="align-self: center;" src="image/in.jpg" type="image" alt="icon">
+        <a href="" target="_blank" class="card-link h4 text-info " style="text-decoration: none;">Go to link</a>
+      </div>
+    </div>
+    <div class="card m-3 bg-light " style="width: 250px; box-shadow: -5px -5px 20px 10px rgb(201, 198, 241)">
+      <div class="card-body text-info d-flex flex-column text-center">
+        <h3 class="card-title mb-4">watch vedios
+        </h3>
+        <input class="logoicon mb-2 rounded-4" style="align-self: center;" src="image/insta.jpg" type="image" alt="icon">
+        <a href="" target="_blank" class="card-link h4 text-info " style="text-decoration: none;">Go to link</a>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+<!-- -----------------------------------------footer------------------------------------------------ -->
+
+
+<footer>
+
+  <div class="container-fluid bg-info">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <hr class=" border-top border-3 border-light my-3">
+        <h5><img src="image/logo.jpeg" alt="good pic" class="logoicon rounded-circle " width="80px" height="80px">&nbsp; Important links</h5>
+        <hr class="border-top border-3 border-light my-3">
+        <address>
+          <p>Tel : 000-000-000</p>
+          <p>Address : EGYPT</p>
+          <p>Fax : 000-000-000</p>
+        </address>
+      </div>
+      <div class="col-md-4">
+        <hr class="border-top border-3 border-light my-3">
+        <h5><img src="image/logo.jpeg" alt="good pic" class="logoicon rounded-circle " width="80px" height="80px">&nbsp; Important links</h5>
+        <hr class="border-top border-3 border-light my-3">
+        <p><a href="#">Visit Us</a></p>
+        <p><a href="#">Take alook</a></p>
+        <p><a href="#">Your health is more important</a></p>
+      </div>
+      <div class="col-md-4">
+        <hr class="border-top border-3 border-light my-3">
+        <h5><img src="image/logo.jpeg" alt="good pic" class="logoicon rounded-circle " width="80px" height="80px">&nbsp; Important links</h5>
+        <hr class="border-top border-3 border-light my-3">
+        <p>Serveices for all </p>
+        <p>Provide best serveices</p>
+        <p>you will be better than before</p>
+      </div>
+    </div>
+  </div>
+  
+  <span class="text-center d-block title bg-info">Copyright © 2023 Mohammed Bassiouny, Company. All
+    rights</span>
+
+</footer>
+
+
+
+
+
+   <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

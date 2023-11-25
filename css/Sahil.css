@@ -1,0 +1,111 @@
+.site{
+    position: relative;
+}
+.site::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    transition: 2s;
+    background-color: rgb(40, 180, 236);
+   
+}
+.site:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+
+.site::before{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    transition: 2s;
+    background-color: rgb(40, 180, 236);
+    opacity: 0.2;
+}
+.site:hover::before{
+    width: 100%;
+    height: 100%;
+}
+
+#thanks{
+    transition: 1s;
+}
+#thanks:hover{
+    transform: scale(0.85,0.85);
+}
+/* -------------------------------------------------------------------------------------- */
+.postcard-bar{
+    width: 70px;
+    height: 5px;
+    margin: 10px 0;
+    border-radius: 3px;
+    background-color:rgba(0, 0, 0, 0.549);
+    transition: all 0.1s;
+  }
+  .postcard:hover .postcard-bar{
+    width: 150px;
+  }
+  .postcard__img_link{
+    max-width: 400px;
+    max-height: 65vh;
+    clip-path: polygon(0 0, 100% 0%, 80% 100%, 0% 100%);
+  }
+   .postcard__img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 20px 0px 0px 20px;
+    
+  }
+  .container:hover .postcard__img{
+    transition: width 0.2s;
+    transform: scaleX(1.2);
+    
+  }
+  
+  
+  .right-img{
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 14% 100%);
+    max-height: 60vh;
+  }
+  .right-img .postcard__img{
+    border-radius: 0px 0px 0px 0px;
+  }
+  .card-title a{
+    text-decoration: none;
+  }
+
+  @media(max-width:768px){
+    .right-img{
+      clip-path: none;
+     
+    }
+    .postcard__img_link{
+      clip-path: none !important;
+      height: 25vh !important;
+     
+    }
+    .container:hover .postcard__img{
+      transform: none;
+     
+    }
+    .postcard__img{
+      object-fit:inherit;
+      object-fit: fill;
+      width: 95vw !important;
+      border-radius:5px 5px 5px 5px;
+     
+    }
+    .right-img .postcard__img{
+      border-radius: 5px 5px 5px 5px;
+    }
+  
+
+  } 
